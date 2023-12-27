@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML and JavaScript Example</title>
+  </head>
+  <body>
+    <h2>Part of Html</h2>
+    <button id="button_A">Click</button>
+    <h3 id="heading_A"></h3>
+
+    <script>
+      // JavaScript code goes here
+      const buttonA = document.querySelector("#button_A");
+      const headingA = document.querySelector("#heading_A");
+
+      buttonA.onclick = () => {
+        const name = prompt("What is your name?");
+        alert(`hello ${name}, how are you `);
+        headingA.textContent = `welcome ${name}`;
+      };
+    </script>
+
+    <p>This paragraph is also part of the HTML content.</p>
+  </body>
+</html>
