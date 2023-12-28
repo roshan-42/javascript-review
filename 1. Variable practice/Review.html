@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <button id="first">Click me</button>
+    <h1 id="h1"></h1>
+  </head>
+  <body>
+    <script>
+      const buttonA = document.querySelector("#first");
+      const headingA = document.querySelector("#h1");
+
+      buttonA.onclick = () => {
+        const name = prompt("What is you name?");
+        alert(`Hello ${name}, How are you`);
+        headingA.textContent = `welcome ${name}`;
+      };
+    </script>
+  </body>
+</html>
