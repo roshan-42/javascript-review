@@ -1,0 +1,26 @@
+if (condtion){
+    code to run if condition is true
+}else {
+    run some other code instead
+}
+====================
+
+
+
+
+
+the events like "change," "click," "input," and "focus" are predefined events in the DOM (Document Object Model). They represent various user interactions or changes in the state of an element, and they are part of the standard set of events that browsers support.
+
+Here are some common predefined events:
+
+"change": Triggered when the value of an <input>, <select>, or <textarea> element changes.
+
+"click": Triggered when the user clicks on an element.
+
+"input": Triggered when the value of an <input>, <select>, or <textarea> element changes. This event is fired more frequently than "change."
+
+"focus": Triggered when an element receives focus.
+
+These events are part of the standard DOM events, and they are widely supported across different browsers. Developers can attach event listeners to these events to execute JavaScript code in response to user actions or changes in the document.
+
+You can find a comprehensive list of events in the MDN Web Docs Event Reference: MDN Web Docs - Event reference
