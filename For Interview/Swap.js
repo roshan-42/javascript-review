@@ -27,3 +27,5 @@ d = c - d;
 c = c - d;
 
 console.log("After swapping: c=", c, ",d=", d);
+
+console.log("commit");
